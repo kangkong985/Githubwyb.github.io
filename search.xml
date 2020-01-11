@@ -11004,26 +11004,6 @@
       </categories>
   </entry>
   <entry>
-    <title>stm32cubemx使用freertos的介绍</title>
-    <url>/2018/03/30/2018_03_16_stm32cubemx_freeRTOS/</url>
-    <content><![CDATA[<p>本博客仅为自己在使用时的总结，希望有所帮助</p>
-<h2 id="程序环境"><a href="#程序环境" class="headerlink" title="程序环境"></a>程序环境</h2><ul>
-<li>系统 <code>Windows10 1709</code></li>
-<li>软件 <code>stm32cubemx 4.25.0</code></li>
-<li>编译软件 <code>keil-mdk arm 5.24</code></li>
-<li>语言 <code>C语言</code></li>
-</ul>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本文是在上一篇文章（<a href="http://localhost:4000/2018/03/30/2018_03_16_stm32cubemx_config/" target="_blank" rel="noopener">stm32cubemx配置介绍</a>）的基础上，利用freeRTOS的一些介绍，希望对想要了解或者使用freeRTOS的码友们提供帮助。本文只是自己在使用时的总结，仅供参考。</p>
-]]></content>
-      <categories>
-        <category>Software Usage</category>
-        <category>Stm32cubemx</category>
-      </categories>
-      <tags>
-        <tag>单片机</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>stm32cubemx配置介绍</title>
     <url>/2018/03/30/2018_03_16_stm32cubemx_config/</url>
     <content><![CDATA[<p>本博客仅为自己在使用时的总结，希望有所帮助</p>
@@ -11082,21 +11062,20 @@
       </tags>
   </entry>
   <entry>
-    <title>keil5常见编译错误的原因</title>
-    <url>/2018/03/30/2018_03_16_keil524_error_warning/</url>
-    <content><![CDATA[<p>本博客仅为自己记录所遇到的问题的解决方案，希望有所帮助</p>
+    <title>stm32cubemx使用freertos的介绍</title>
+    <url>/2018/03/30/2018_03_16_stm32cubemx_freeRTOS/</url>
+    <content><![CDATA[<p>本博客仅为自己在使用时的总结，希望有所帮助</p>
 <h2 id="程序环境"><a href="#程序环境" class="headerlink" title="程序环境"></a>程序环境</h2><ul>
 <li>系统 <code>Windows10 1709</code></li>
-<li>软件 <code>keil-mdk arm 5.24</code></li>
+<li>软件 <code>stm32cubemx 4.25.0</code></li>
+<li>编译软件 <code>keil-mdk arm 5.24</code></li>
 <li>语言 <code>C语言</code></li>
 </ul>
-<h2 id="问题和原因及解决方案"><a href="#问题和原因及解决方案" class="headerlink" title="问题和原因及解决方案"></a>问题和原因及解决方案</h2><h3 id="warnings"><a href="#warnings" class="headerlink" title="warnings"></a>warnings</h3><h4 id="1、函数隐式声明"><a href="#1、函数隐式声明" class="headerlink" title="1、函数隐式声明"></a>1、函数隐式声明</h4><blockquote>
-<p>warning: #223-D: function “xxxx()” declared implicitly</p>
-</blockquote>
-<p>一般为头文件未包含，但是c文件被编译器编译了，但是在函数被调用的地方没有包含头文件，所以报了一个warning。有些时候会被当做空函数执行，有时没有影响，养成习惯包含头文件。</p>
-<h3 id="errors"><a href="#errors" class="headerlink" title="errors"></a>errors</h3>]]></content>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本文是在上一篇文章（<a href="/2018/03/30/2018_03_16_stm32cubemx_config/">stm32cubemx配置介绍</a>）的基础上，利用freeRTOS的一些介绍，希望对想要了解或者使用freeRTOS的码友们提供帮助。本文只是自己在使用时的总结，仅供参考。</p>
+]]></content>
       <categories>
-        <category>Debug</category>
+        <category>Software Usage</category>
+        <category>Stm32cubemx</category>
       </categories>
       <tags>
         <tag>单片机</tag>
@@ -11119,6 +11098,27 @@
 <li>网上下载一个<a href="https://pan.baidu.com/s/1Bl4Q4RQkP-Ba9V8qdO9NFQ" target="_blank" rel="noopener">Segger</a>文件替换<code>keil_program\ARM\Segger</code>文件夹下全部内容即可。</li>
 </ul>
 ]]></content>
+      <categories>
+        <category>Debug</category>
+      </categories>
+      <tags>
+        <tag>单片机</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>keil5常见编译错误的原因</title>
+    <url>/2018/03/30/2018_03_16_keil524_error_warning/</url>
+    <content><![CDATA[<p>本博客仅为自己记录所遇到的问题的解决方案，希望有所帮助</p>
+<h2 id="程序环境"><a href="#程序环境" class="headerlink" title="程序环境"></a>程序环境</h2><ul>
+<li>系统 <code>Windows10 1709</code></li>
+<li>软件 <code>keil-mdk arm 5.24</code></li>
+<li>语言 <code>C语言</code></li>
+</ul>
+<h2 id="问题和原因及解决方案"><a href="#问题和原因及解决方案" class="headerlink" title="问题和原因及解决方案"></a>问题和原因及解决方案</h2><h3 id="warnings"><a href="#warnings" class="headerlink" title="warnings"></a>warnings</h3><h4 id="1、函数隐式声明"><a href="#1、函数隐式声明" class="headerlink" title="1、函数隐式声明"></a>1、函数隐式声明</h4><blockquote>
+<p>warning: #223-D: function “xxxx()” declared implicitly</p>
+</blockquote>
+<p>一般为头文件未包含，但是c文件被编译器编译了，但是在函数被调用的地方没有包含头文件，所以报了一个warning。有些时候会被当做空函数执行，有时没有影响，养成习惯包含头文件。</p>
+<h3 id="errors"><a href="#errors" class="headerlink" title="errors"></a>errors</h3>]]></content>
       <categories>
         <category>Debug</category>
       </categories>
