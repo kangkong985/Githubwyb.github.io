@@ -11004,26 +11004,6 @@
       </categories>
   </entry>
   <entry>
-    <title>stm32cubemx使用freertos的介绍</title>
-    <url>/2018/03/30/2018_03_16_stm32cubemx_freeRTOS/</url>
-    <content><![CDATA[<p>本博客仅为自己在使用时的总结，希望有所帮助</p>
-<h2 id="程序环境"><a href="#程序环境" class="headerlink" title="程序环境"></a>程序环境</h2><ul>
-<li>系统 <code>Windows10 1709</code></li>
-<li>软件 <code>stm32cubemx 4.25.0</code></li>
-<li>编译软件 <code>keil-mdk arm 5.24</code></li>
-<li>语言 <code>C语言</code></li>
-</ul>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本文是在上一篇文章（<a href="/2018/03/30/2018_03_16_stm32cubemx_config/">stm32cubemx配置介绍</a>）的基础上，利用freeRTOS的一些介绍，希望对想要了解或者使用freeRTOS的码友们提供帮助。本文只是自己在使用时的总结，仅供参考。</p>
-]]></content>
-      <categories>
-        <category>Software Usage</category>
-        <category>Stm32cubemx</category>
-      </categories>
-      <tags>
-        <tag>单片机</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>stm32cubemx配置介绍</title>
     <url>/2018/03/30/2018_03_16_stm32cubemx_config/</url>
     <content><![CDATA[<p>本博客仅为自己在使用时的总结，希望有所帮助</p>
@@ -11072,6 +11052,26 @@
 <h3 id="代码控制"><a href="#代码控制" class="headerlink" title="代码控制"></a>代码控制</h3><p>输出的控制函数为</p>
 <pre><code>HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);</code></pre><p>读取的函数为</p>
 <pre><code>HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13);</code></pre><p>可以用这两个函数控制灯的闪烁了。</p>
+]]></content>
+      <categories>
+        <category>Software Usage</category>
+        <category>Stm32cubemx</category>
+      </categories>
+      <tags>
+        <tag>单片机</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>stm32cubemx使用freertos的介绍</title>
+    <url>/2018/03/30/2018_03_16_stm32cubemx_freeRTOS/</url>
+    <content><![CDATA[<p>本博客仅为自己在使用时的总结，希望有所帮助</p>
+<h2 id="程序环境"><a href="#程序环境" class="headerlink" title="程序环境"></a>程序环境</h2><ul>
+<li>系统 <code>Windows10 1709</code></li>
+<li>软件 <code>stm32cubemx 4.25.0</code></li>
+<li>编译软件 <code>keil-mdk arm 5.24</code></li>
+<li>语言 <code>C语言</code></li>
+</ul>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本文是在上一篇文章（<a href="/2018/03/30/2018_03_16_stm32cubemx_config/">stm32cubemx配置介绍</a>）的基础上，利用freeRTOS的一些介绍，希望对想要了解或者使用freeRTOS的码友们提供帮助。本文只是自己在使用时的总结，仅供参考。</p>
 ]]></content>
       <categories>
         <category>Software Usage</category>
